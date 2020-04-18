@@ -2,16 +2,18 @@ $(function(){
 
     var first_name = "";
     var last_name = "";
-    var data;
-    var date;
+    var i1 = 0;
+    var i2 = 0;
+    var data = [];
+    var date = [];
     var ind = 0;
 
     $("#btnSubmit").click(function(){
-        
+
         first_name = $("#fname").val();
         last_name = $("#lname").val();
-        date = $("#todaysdate").val();
-        data = $("#enterdata").val();
+        date.push($("#todaysdate").val());
+        data.push($("#enterdata").val());
         
         if(ind == 0){
 
@@ -20,7 +22,7 @@ $(function(){
             ind++;
         }
 
-        $(".maintable").append("<tr><td>" + date + "</td><td>" + data + " lb</td></tr>");
+        $(".maintable").append("<tr><td>" + date[i1++] + "</td><td>" + data[i2++] + " lb</td></tr>");
 
     });
 

@@ -17,13 +17,12 @@ $(function(){
         
         if(ind == 0){
 
-            $(".maintable").prepend("<th colspan='2'>" + first_name + " " + last_name +  "</th>");
+            $(".maintable").prepend(`<th colspan='2'>${first_name} ${last_name}</th>`);
             
             ind++;
         }
 
-        $(".maintable").append("<tr><td>" + date[i1++] + "</td><td>" + data[i2++] + " lb</td></tr>");
-
+        $(".maintable").append(`<tr><td>${date[i1++]}</td><td>${data[i2++]} lb</td></tr>`);
     });
 
     

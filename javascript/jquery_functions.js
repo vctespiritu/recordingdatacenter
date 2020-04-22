@@ -54,10 +54,10 @@ $(function(){
 
             var options = {
                 hAxis: {
-                title: 'Days'
+                    title: 'Days'
                 },
                 vAxis: {
-                title: 'Weight'
+                    title: 'Weight'
                 }
             };
 

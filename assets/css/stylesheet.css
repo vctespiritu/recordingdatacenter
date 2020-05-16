@@ -1,0 +1,86 @@
+table,
+maintable,
+th,
+td {
+    border: 1px solid black;
+}
+
+#title,
+#subtitle {
+    color: white;
+    margin-bottom: 20px;
+}
+
+header {
+    height: 500px;
+    padding: 50px;
+    background-image: url("../img/notebook-graph.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.utilities{
+    position: absolute;
+}
+
+main {
+    margin: 60px;
+}
+
+.mainBoxes{
+    border-radius: 12px;
+    height: 200px;
+}
+
+#description {
+    background: #FF7400;
+}
+
+#vision {
+    background: #00ACAC;
+}
+
+#examples {
+    background: #FFE200;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: #E6E6E6;
+}
+
+ul {
+    list-style-type: none;
+}

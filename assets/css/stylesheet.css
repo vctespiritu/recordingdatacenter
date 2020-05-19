@@ -1,17 +1,13 @@
 table,
-maintable,
+.maintable,
 th,
 td {
     border: 1px solid black;
 }
 
-#title,
-#subtitle {
-    color: white;
-    margin-bottom: 20px;
-}
+/* -------------------------------- HEADER */
 
-header {
+header#homepage{
     height: 500px;
     padding: 50px;
     background-image: url("../img/notebook-graph.jpg");
@@ -20,17 +16,65 @@ header {
     background-size: cover;
 }
 
-.utilities{
+#title,
+#subtitle {
+    color: white;
+    margin-bottom: 20px;
+}
+
+ul.utilities{
     position: absolute;
+    right: 0px;
+    
 }
 
-main {
-    margin: 60px;
+ul.utilities li{
+    display: inline;
+    margin: 10px;
+    
 }
 
-.mainBoxes{
+/* --------------------------------------------- */
+
+/* ------------------------------ MAIN */
+
+main#homepage{
+    margin: 100px;
+}
+
+main#recorddatascreen{
+    margin: 100px;
+}
+
+.spacer{
+    margin: 40px;
+}
+
+.mainBoxes {
     border-radius: 12px;
-    height: 200px;
+    height: 400px;
+}
+
+.first_divider{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
+}
+
+.dividers{
+    width: 100%;
+    height: 100%;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.resize{
+    width: inherit;
+    height: 700px;
+}
+
+.titles{
+    
 }
 
 #description {
@@ -45,6 +89,17 @@ main {
     background: #FFE200;
 }
 
+.maintable{
+    display: none;
+}
+
+.showTable{
+    display: inline-block;
+}
+
+/* -------------------------------------- */
+
+/* ------------------------------ICONS */
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -73,9 +128,11 @@ main {
     color: white;
 }
 
+/* ----------------------------------------- */
+
+
+/* --------------------------------FOOTER */
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 150px;
     background: #E6E6E6;
@@ -84,3 +141,4 @@ footer {
 ul {
     list-style-type: none;
 }
+/* ---------------------------------------- */
